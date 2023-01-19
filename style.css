@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1f2937;
+    height: 80px;
+    width: 100%;
+    padding: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header span{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav .item{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* -------------------------- */
+
+.container1{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 250px;
+}
+
+.container1 .item1{
+    width: 50%;
+    padding-right: 20px;
+}
+
+.container1 .item1 h1{
+    color: #f9faf8;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.container1 .item1 p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.container1 .item1 button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.container1 .item2{
+    height: 250px;
+    width: 50%;
+    background-color: #757584;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 .item2 p{
+    color: #e5e7eb;
+}
+
+/* ----------------------------------------- */
+
+.masodik{
+    width: 100%;
+    padding: 50px 250px;
+}
+
+.masodik h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.masodik .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+.masodik .container2 .items{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    width: 200px;
+}
+
+.masodik .container2 .items .kekcucc{
+    border: #3882f6 3px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.masodik .container2 p{
+    color: #1f2937;
+    width: 200px;
+}
+
+/* ---------------------------------------- */
+
+.container3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;
+    width: 100%;
+}
+
+.container3 .quote{
+    color: #1f2937;
+    font-size: 32px;
+    width: 100%;
+}
+
+.container3 .szerzo{
+    padding: 10px;
+    color: black;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: end;
+}
+
+/* ------------------------------------ */
+
+.container4{
+    background-color: #3882f6;
+    margin: 50px 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    color: #f9faf8;
+}
+
+.container4 .also h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container4 .alsobutton button{
+    padding: 5px 20px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+/* ------------------------------------- */
+
+footer{
+    background-color: #1f2937;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+}
